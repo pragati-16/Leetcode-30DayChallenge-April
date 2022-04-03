@@ -16,7 +16,7 @@ class Solution {
        int n=nums.length;
         int i=n-1;
         for(i=n-1;i>0;i--) {
-            if(nums[i]>nums[i-1]) {
+            if(nums[i]>nums[i-1]) { 
                 break;
         } }
         if(i==0) {
