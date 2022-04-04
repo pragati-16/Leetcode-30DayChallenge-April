@@ -32,7 +32,7 @@ class Solution {
         }
 
         ListNode tempNode = left.next;
-		// if right is the left neighbor of left
+		// if right is the left neighbor of left 
         if (preLeft == right) {
             preRight.next = left;
             left.next = right;
