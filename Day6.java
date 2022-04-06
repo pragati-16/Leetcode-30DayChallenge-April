@@ -40,7 +40,7 @@ class Solution {
                         
                             count1 = ( count1 * count2  ) % m;
                             ans = (ans + count1) % m;
-                                                
+                                                 
                     }
                     
                     k--;
