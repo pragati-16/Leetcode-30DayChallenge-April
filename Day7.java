@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<stones.length;i++)
         pq.add(stones[i]);
         while(pq.size()>1){
-        int a=pq.poll();
+        int a=pq.poll();  
        int b=pq.poll();
         if(a==b)
         continue;
