@@ -25,4 +25,4 @@ class KthLargest {
 
         return heap.peek();
     }
-}
+} 
