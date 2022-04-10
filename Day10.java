@@ -8,7 +8,7 @@ class Solution {
                 int newtop = top + stack.peek();
                 stack.push(top);
                 stack.push(newtop);
-            } else if (op.equals("C")) {
+            } else if (op.equals("C")) { 
                 stack.pop();
             } else if (op.equals("D")) {
                 stack.push(2 * stack.peek());
