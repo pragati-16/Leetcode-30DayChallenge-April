@@ -25,5 +25,5 @@ class Solution {
 public int neighbor(int[][] board, int r, int c){
    if( r < 0 || r >= board.length || c < 0 || c >= board[0].length || board[r][c] == 0 ){ return 0; }                          // out of bound cases
    return 1;
-}   
+}    
    }
